@@ -55,9 +55,7 @@ Step 2 - Adding quantity
 > Which item? (or 'quit' to checkout)
 > quit
 > -------BILL---------
-> kiwi: 2 X 1.25€ = 2.5€
-> mango: 3 X 4€ = 12€
-> TOTAL: 14.5€
+
 > --------------------
 
 
