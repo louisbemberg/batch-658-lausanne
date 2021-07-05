@@ -1,0 +1,43 @@
+Background and Objectives
+We will build a simple calculator capable of handling the 4 basic operations (+, - , *, /).
+The program will ask the user for two numbers and one of the four operators in order to be able to perform a simple calculation
+and display the result to the user.
+
+Step 1) Dumb Calculator
+
+> Enter a first number:
+> 6
+> Enter a second one:
+> 8
+> Choose operation [+][-][*][/]
+> *
+> Result: 48
+
+
+
+Step 2) Make it loop!
+
+> Enter a first number:
+> 6
+> Enter a second one:
+> 8
+> Which operation [+][-][x][/]
+> x
+> Result: 48
+> Do you want to calculate again? [Y/N]
+> Y
+> Enter a first number:
+> 55
+> Enter a second one:
+> 2
+> Which operation [+][-][x][/]
+> -
+> Result: 53
+> Do you want to calculate again? [Y/N]
+> N
+
+
+Step 3) Refactor the back-end and front-end in separate files
+
+
+

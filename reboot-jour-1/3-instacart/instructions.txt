@@ -1,0 +1,85 @@
+Background and Objectives
+This is the largest exercise of the day.
+We will build a simple store interface program,
+where the user can see which items are available and their respective prices.
+The user can then select which items they wish to put in their shopping cart and,
+when they are done, checkout and see their final bill.
+
+
+Step 1 - Dumb Shopping
+
+> --------------------
+> Welcome to Instacart
+> --------------------
+> In our store today:
+> kiwi: 1.25€
+> banana: 0.5€
+> mango: 4€
+> asparagus: 9€
+> --------------------
+> Which item? (or 'quit' to checkout)
+> kiwi
+> Which item? (or 'quit' to checkout)
+> pineapple
+> Sorry, we don't have pineapple today..
+> Which item? (or 'quit' to checkout)
+> mango
+> Which item? (or 'quit' to checkout)
+> quit
+> -------BILL---------
+> TOTAL: 5.25€
+> --------------------
+
+
+
+
+Step 2 - Adding quantity
+
+> --------------------
+> Welcome to Instacart
+> --------------------
+> In our store today:
+> kiwi: 1.25€
+> banana: 0.5€
+> mango: 4€
+> asparagus: 9€
+> --------------------
+> Which item? (or 'quit' to checkout)
+> kiwi
+> How many?
+> 2
+> Which item? (or 'quit' to checkout)
+> mango
+> How many?
+> 3
+> Which item? (or 'quit' to checkout)
+> quit
+> -------BILL---------
+> kiwi: 2 X 1.25€ = 2.5€
+> mango: 3 X 4€ = 12€
+> TOTAL: 14.5€
+> --------------------
+
+
+
+Step 3 - Adding availability
+
+> --------------------
+> Welcome to Instacart
+> --------------------
+> In our store today:
+> kiwi: 1.25€ (5 available)
+> banana: 0.5€ (4 available)
+> mango: 4€ (1 available)
+> asparagus: 9€ (5 available)
+> --------------------
+> Which item? ('quit' to checkout)
+> kiwi
+> How many?
+> 2
+> Which item? ('quit' to checkout)
+> kiwi
+> How many?
+> 4
+> Sorry, there are only 3 kiwis left..
+> [...]

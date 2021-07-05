@@ -1,0 +1,19 @@
+Lundi 5 Juillet - Reboot day 1 - Batch 658 Lausanne
+
+10:00 - Fin du Cours
+10:15 - 10:30 Explication du Reboot & Pseudocode Calculatrice
+10:30 - 10:50 Code
+10:50 - 11:10 Correction de Calculator, Pseudo code de Horse Race
+11:10 - 11:30 Code
+11:30 - 11:50 Correction de Horse Race & Discussion de l'exercice suivant
+
+12:00 - 13:00 LUNCH
+
+13:00 - 13:15 Pseudo Code de Instacart v1
+13:15 - 14:00 Code
+14:00 - 14:15 Correction de v1, pseudocode v2
+14:15 - 14:35 Code
+14:35 - 14:50 Correction de v2, pseudocode v3
+14:50 - 15:10 Code
+15:10 - 15:30 Correction de v3
+15:30 - 16:30 Marge au cas où retard, réponse aux questions
