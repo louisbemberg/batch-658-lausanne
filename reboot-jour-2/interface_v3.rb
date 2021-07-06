@@ -16,14 +16,14 @@ until action == 'quit'
   if action == 'list'
     display_list(gift_list)
   elsif action == 'add'
-    puts "Please type the name of the gift you want to add"
+    puts 'Please type the name of the gift you want to add'
     new_gift = gets.chomp
     gift_list << new_gift
     puts "#{new_gift} was successfully added to your list."
     display_list(gift_list)
   elsif action == 'delete'
     display_list(gift_list)
-    puts "Which gift do you want to delete? Enter a number"
+    puts 'Which gift do you want to delete? Enter a number'
     number_to_delete = gets.chomp.to_i # number_to_delete = gets.chomp.to_i - 1
     index_to_delete = number_to_delete - 1
     puts "#{gift_list[index_to_delete]} was successfully deleted from your list."

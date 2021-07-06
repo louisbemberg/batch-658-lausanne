@@ -40,8 +40,6 @@ pets['Rex']
 #   puts "Mince il est ou Rex"
 # end
 
-
-
 # # Question 3
 # # quel est le problème avec ce code, selon vous?
 
