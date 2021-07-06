@@ -1,0 +1,85 @@
+Step 1 - The menu loop 🎁
+Start by building the main loop displaying the actions and getting user’s input:
+
+
+> Welcome to your Christmas gift list
+> Which action [list|add|delete|quit]?
+> list
+> TODO: list items
+> Which action [list|add|delete|quit]?
+> add
+> TODO: ask user an item and add it to gift list
+> Which action [list|add|delete|quit]?
+> delete
+> TODO: ask user the index of item to delete and delete it
+> Which action [list|add|delete|quit]?
+> quit
+> Goodbye
+
+
+
+
+
+
+
+
+
+
+Step 2 - List, Add, Delete 🎁🎁
+Now let’s implement the simple actions (list, add, delete).
+
+How do you model your gift_list?
+Do you use a hash? An array?
+Discuss that with your teacher before you start each action.
+
+
+
+
+
+
+
+
+
+
+Step 3 - Mark an item as bought 🎁🎁🎁
+We want to be able to mark any item as bought:
+
+ruby interface.rb
+
+> Welcome to your Christmas gift list
+> Which action [list|add|delete|mark|quit]?
+> list
+> 1 - [ ] sockets
+> 2 - [X] ruby book
+> 3 - [ ] macbook pro
+> Which action [list|add|delete|mark|quit]?
+> mark
+> Which item have you bought (give the index)?
+> 3
+> Which action [list|add|delete|mark|quit]?
+> list
+> 1 - [ ] sockets
+> 2 - [X] ruby book
+> 3 - [X] macbook pro
+
+
+
+
+
+
+
+Step 4 - Find ideas on Etsy 🎁🎁🎁🎁
+You are out of ideas for Christmas and you want to find inspiration from Etsy.
+Add a new action idea to your menu (additionally to the list, add, delete and mark actions). Here is how this action could work:
+
+What are you looking for on Etsy?
+> Jeans
+Here are Etsy results for "Jeans":
+1 - Levis Blue Jeans
+2 - Vintage Jeans
+3 - Cargo Jeans Pants
+4 - White Jeans
+etc.
+Pick one to add to your list (give the number)
+> 2
+"Vintage Jeans" added to your wishlist

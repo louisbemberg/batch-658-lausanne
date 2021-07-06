@@ -1,0 +1,15 @@
+10:00 - 10:20 PTIT QUIZ - 8 QUESTIONS
+10:20 - 10:35 Pseudocode Christmas version 1 - menu loop
+10:35 - 11:00 Code
+11:00 - 11:20 Correction v1 & pseudocode v2: coding CR-D actions
+11:20 - 12:00 Code
+12:00 - 12:20 Correction v2 & mention what we will do on v3
+
+12:30 - 13:30 lunch
+
+13:30 - 13:40 Pseudocode v3 : mark as done!
+13:40 - 14:00 Code
+14:00 - 14:30 Correction mark as done & pseudo v4: scraping
+14:30 - 15:30 Code
+15:30 - 16:00 Correction scraper
+
