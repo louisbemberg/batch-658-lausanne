@@ -13,7 +13,7 @@ html_content = File.open(filepath)
 # 5. transformer le fichier en objet Nokogiri (connection entre HTML et Ruby)
 nokogiri_doc = Nokogiri::HTML(html_content)
 # 6. effectuer un search des éléments qu'on veut via CSS
-nokogiri_doc.search('.classname tagname #idname').each do |element|
+nokogiri_doc.search('.card h2').each do |element|
   # 7. obtenir le contenu des éléments
   element.text.strip
 end

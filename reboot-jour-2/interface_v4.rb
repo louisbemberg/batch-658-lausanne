@@ -1,5 +1,4 @@
-# changer gift_list pour une meilleure structure
-# option 1: un hash à la place d'un array
+# require la gemme nokogiri
 
 gift_list = {
   'PlayStation 5' => false,
@@ -41,7 +40,7 @@ end
 
 action = nil
 until action == 'quit'
-  puts 'Which action [list|add|delete|mark|quit]?'
+  puts 'Which action [list|add|delete|mark|scrape|quit]?'
   action = gets.chomp.downcase
   if action == 'list'
     display_hash(gift_list)
@@ -75,6 +74,15 @@ until action == 'quit'
     gift_list[key_to_mark] = !gift_list[key_to_mark]
     # mettre une phrase pour dire que le cadeau est marqué
     display_hash(gift_list)
+  elsif action == 'scrape'
+    # demander a l'utilisateur ce qu'on veut chercher en ligne
+    # récupérer l'input
+    # SCRAPING MAGIC
+
+    # remplir un array de suggestions grace a notre scraping magic
+    # display un nombre x de suggestions
+    # laisser l'utilisateur choisir un numéro de suggestion
+    # ajouter la suggestion a la christmas list
   else
     puts 'Please enter an allowed action' unless action == 'quit'
   end
