@@ -1,0 +1,5 @@
+1. A quoi sert un debugger? => inspecter notre code sans mettre de puts
+2. les 3 règles d'OOP
+  - tout est un objet
+  - tout objet appartient à une classe
+  - tout objet à du state (état) et du behavior (comportement)

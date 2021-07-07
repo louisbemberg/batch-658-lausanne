@@ -1,0 +1,43 @@
+OBJECTIFS
+
+- Appendre ce qu'est un debugger, et comment s'en servir
+- Apprendre ce qu'est l'OOP, et les 3 règles d'or de l'OOP
+- Découvrir, comprendre, et maitriser les classes: ce qu'elles sont, comment s'en servir, et comment en créer
+- Apprendre à customiser nos classes en ajoutant du state (état) et du behavior (comportement)
+- Apprendre à exposer, protéger, et privatiser nos classes, et pourquoi
+
+DETAIL DU COURS
+
+# 0. DEBUGGING: USING PRY-BYEBUG
+  # 0.1 debugging with puts and p
+  # 0.2 Installing and requiring Byebug
+  # 0.3 Using pry-byebug
+
+# 1. INTRO: Classes & OOP
+  # 1.0 2 questions for students: modelling a car and built-in methods
+  # 1.1 Why Classes?
+  # 1.2 The Concept of OOP: State(data) & Behavior
+
+# 2. Classes
+  # 2.1 How to Create a Class
+  # 2.2 Naming Conventions
+
+# 3. Instances
+  # 3.1 Difference between an Instance and a Class
+  # 3.2 Creating Instances
+
+# 4. State & Behavior
+  # 4.1 How to add state to your class: INSTANCE VARIABLES
+  # 4.2 How to add behavior to your class: INSTANCE.METHODS
+  # 4.3 Reading the state
+  # 4.4 Reading state: shortcut
+  # 4.5 Updading the state
+  # 4.6 Updating the state: shortcut
+  # 4.7 Multi-shortcut
+
+# 5. Concept: Encapsulation and private methods
+  # 5.1 Why not putting attr_accessor on everything?
+  # 5.2 Encapsulation: some things are visible, some things aren't.
+  # 5.3 Private methods
+
+# 6. Summary, questions, exercise recap
