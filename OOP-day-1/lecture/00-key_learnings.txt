@@ -1,5 +1,12 @@
-1. A quoi sert un debugger? => inspecter notre code sans mettre de puts
+1. A quoi sert un debugger? => inspecter notre code sans mettre de puts partout
 2. les 3 règles d'OOP
   - tout est un objet
   - tout objet appartient à une classe
   - tout objet à du state (état) et du behavior (comportement)
+3. Encapsulation: le fait d'exposer le minimum possible
+4. convention de noms: classes en UpperCamelCase, fichiers en lower_snake_case
+5. State -> variable d'instance -> nom avec un @ devant. @color, @wheels, etc.
+6. Behavior -> méthode d'instance -> def(...) end, ou des attr_reader/writer/accessor
+7. la méthode .new et la méthode initialize sont jumelles!
+    utiliser .new utilise automatiquement initialize (si elle existe)
+8. méthodes privées: ne peuvent pas être appelées de l'extérieur
