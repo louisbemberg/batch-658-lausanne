@@ -1,4 +1,8 @@
-# require la gemme nokogiri
+require 'nokogiri'
+require 'open-uri'
+
+
+
 
 gift_list = {
   'PlayStation 5' => false,
@@ -76,13 +80,30 @@ until action == 'quit'
     display_hash(gift_list)
   elsif action == 'scrape'
     # demander a l'utilisateur ce qu'on veut chercher en ligne
+    puts "Which item do you want to scrape?"
+    keyword = gets.chomp
     # récupérer l'input
+    filepath = 'results.html'
+    url = "https://www.etsy.com/search?q=#{keyword}"
     # SCRAPING MAGIC
-
+    html_content = URI.open(url).read
+    nokogiri_doc = Nokogiri::HTML(html_content)
+    database = []
     # remplir un array de suggestions grace a notre scraping magic
-    # display un nombre x de suggestions
+    nokogiri_doc.search('.v2-listing-card__info h3').each do |element|
+      database << element.text.strip
+    end
+
+    display_list(database)
+    puts "Which of these would you like to add to your list? Indicate a number"
+    chosen_number = gets.chomp.to_i
+    chosen_index = chosen_number - 1
     # laisser l'utilisateur choisir un numéro de suggestion
-    # ajouter la suggestion a la christmas list
+    chosen_item = database[chosen_index]
+    # ajouter la suggestion a la gift list
+    gift_list[chosen_item] = false
+    puts "#{chosen_item} was successfully added to your list."
+    display_hash(gift_list)
   else
     puts 'Please enter an allowed action' unless action == 'quit'
   end

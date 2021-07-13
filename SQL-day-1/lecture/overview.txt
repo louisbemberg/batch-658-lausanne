@@ -1,0 +1,47 @@
+1. Introduction
+  1.1 New Module: Database!
+
+2. Why Databases?
+  2.1 Persistence
+  2.2 What we used so far: csv. It's doodoo!
+  2.3 Why was CSV doodoo?
+
+3. Database design: Let's do some good old excel!
+  3.1 Cities & Inhabitants
+    3.1.1 1 table? 2 tables?
+    3.1.2 Introducing IDs
+    3.1.3 N:1 relationships
+    3.1.4 Vocabulary: belongs_to and has_many
+    3.1.5 Who stores the ID of who?
+  3.2 Second example: dogs & owners
+  3.3 Patients & Doctors
+    3.3.1 How to connect the two of them?
+    3.3.2 N:N relationships
+    3.3.3 Join Tables
+  3.4 Second example: songs & playlists
+  3.5 Relational Database
+
+4. Database Schemas
+  4.1 How to use the LW db schema tool
+  4.2 drawing the 4 examples we did
+  4.3 Vocabulary
+  4.4 Saving & Loading Schemas
+
+5. Querying a database
+  5.1 The CSV scenario: import everything then filter
+  5.2 new tool: a language that allows us to ask specific things to a DB.
+
+6. SQL
+  6.1 SELECT, FROM
+  6.2 WHERE, =
+  6.3 AND, OR
+  6.4 ORDER BY, ASC & DESC
+  6.5 COUNT(*)
+  6.6 GROUP BY
+  6.7 AS, optional AS
+
+7. SQL ADVANCED: JOINING TABLES
+  7.1 Using data from more than 1 table
+  7.2 Join syntax
+
+8. Tips For today's exercises

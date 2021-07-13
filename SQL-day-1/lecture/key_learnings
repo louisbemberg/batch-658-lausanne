@@ -1,0 +1,44 @@
+why is CSV bad?
+
+- need to convert data everytime
+- CSV only stores strings
+- hard to search
+- difficult syntax
+- everytime we save, we overwrite the whole csv
+- many files
+- can't query the database
+
+
+Relationships:
+
+1:N (one-to-many)
+"An X has many Y"
+"A Y belongs to X"
+
+N:N (many-to-many)
+"An X has many Y"
+"An Y has many X"
+=> WE NEED A THIRD TABLE TO DEAL WITH THOSE
+=> THIS TABLE IS CALLED A JOINT TABLE
+
+
+Schema editor Vocabulary:
+TABLE NAMES = plural
+FIELD NAMES = singular
+PRIMARY KEY = id
+FOREIGN KEY = singulartablename_id
+
+SQL KEYWORDS:
+SELECT - What i want to see
+FROM - from what table
+WHERE - filter
+AND/OR - extra conditions on the where
+GROUP BY - group data together
+ORDER BY (ASC/DESC)- Reorder data based on a field
+
+SQL ADVANCED:
+JOIN tabletojoin ON "insert here the bridge equality"
+
+SQLITE3:
+The IRB of SQL. Allows you to execute SQL on your DB.
+
