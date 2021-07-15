@@ -1,0 +1,4 @@
+1. 1 fichier CSV par modèle
+2. pas efficace (SQL plus puissant), récrire ligne par ligne
+3. obligé de charger le fichier entier à l'importation
+4. tout est en strings
