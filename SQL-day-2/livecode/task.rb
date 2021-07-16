@@ -2,7 +2,7 @@ class Task
   attr_reader :title, :id
   attr_accessor :done
 
-  def initialize(attributes)
+  def initialize(attributes = {})
     @id = attributes[:id]
     @title = attributes[:title]
     @description = attributes[:description]
@@ -13,10 +13,12 @@ class Task
   def self.find(id)
     results = DB.execute("SELECT * FROM tasks WHERE id = ?", id)
     return if results.empty?
+
     task = Task.new(results.first.transform_keys(&:to_sym))
     task.done = task.done == 1
     task
   end
+
   # READ - build a (class? instance?) method to get ***all*** the tasks from the DB
   def self.all
     DB.execute("SELECT * FROM tasks").map do |hash|
@@ -25,6 +27,7 @@ class Task
       task
     end
   end
+
   # CREATE / UPDATE build a (class? instance?) method that ***saves*** objects in the DB
   def save
     if @id.nil?
