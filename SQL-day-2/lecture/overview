@@ -1,0 +1,46 @@
+SQL DAY 2 OVERVIEW
+
+1. INTRO: Plan for today
+  1.1 Short Recap on Join - Visual
+  1.2 Mini Recap on Read - Easiest queries
+  1.3 CRUD in SQL: We know R, need to learn C U D
+  1.4 Create Syntax in SQL
+  1.5 Update Syntax in SQL
+  1.6 Delete Syntax in SQL
+  1.7 Ruby & SQL
+  1.8 OOP & DB combined
+
+2. Recap of Join queries
+  2.1 the inhabitants & cities example
+
+3. Recap of Read queries: What are the 3 most basic queries? (AirBnB)
+  3.1 Give me everything
+  3.2 Give me one particular record
+  3.3 Basic filtering
+  3.4 example on doctors
+
+4. C - CREATE
+  4.1 INSERT INTO xxx XXXXX VALUES XXXXXX syntax
+  4.2 what could go wrong?
+  4.3 DB handling the id
+
+5. U - Update
+  5.1 UPDATE xxx SET xxx = xxxx WHERE xxxx
+  5.2 what could go wrong?
+  5.3 WARNING: use the WHERE keyword!!!
+
+6. D - Delete
+  6.1 DELETE FROM XXX WHERE xxxx
+  5.2 what could go wrong?
+  5.3 WARNING: use the WHERE keyword!!!
+
+7. Connecting Ruby & SQL
+  7.1 one model, one table. Respect the names!
+  7.2 The most important slide: RUBY WORLD vs DB WORLD
+    7.2.1 What needs to happen when sending things to the DB
+    7.2.2. What needs to happen when things come back from the DB
+    7.2.3. Which methods create Ruby-SQL exchanges?
+  7.3 using the DB constant to call .execute
+  7.4 results_as_hash and last_insert_row_id
+
+
